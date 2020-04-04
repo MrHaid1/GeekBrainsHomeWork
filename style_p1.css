@@ -209,3 +209,19 @@ input[type="submit"] {
     padding-top: 57px;
     padding-left: 854px;
 }
+.footer {
+    height: 71px;
+    background-color: black;
+    color: #ffffff;
+    font-family: "Arial Narrow", serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0.16px;
+    text-align: center;
+    width: 1920px;
+
+}
+.footer__p {
+    padding-top: 29px;
+}
