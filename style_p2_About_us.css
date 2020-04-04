@@ -1,0 +1,44 @@
+.about_main {
+    width: 1923px;
+    height: 500px;
+}
+
+.about_main__h {
+    height: 28px;
+    color: #f44336;
+    font-family: Poppins, serif;
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 36px;
+    padding-bottom: 35px;
+
+}
+
+.about_main__p {
+    width: 398px;
+    height: 203px;
+    color: #999999;
+    font-family: "Roboto Condensed", serif;
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 24px;
+    letter-spacing: 0.12px;
+    white-space: pre-wrap;
+}
+
+.about_main__img {
+    width: 545px;
+    height: 343px;
+    padding-left: 33px;
+}
+
+.about_main__div {
+    width:972px;
+    height: 338px;
+    padding-left: 474px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding-top: 95px;
+    background-color: #ffffff;
+}

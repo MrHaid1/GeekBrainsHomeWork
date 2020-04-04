@@ -111,6 +111,9 @@
     background-color: transparent;
 
 }
+input.search:focus {
+    background-color: white;
+}
 input[type="search"]::-webkit-input-placeholder {
     color: white; !important
     opacity: 1;
@@ -123,6 +126,7 @@ input[type="search"] {
     vertical-align: middle;
     border-right: none;
     outline: none;
+
 
 }
 input[type="submit"] {
@@ -178,7 +182,7 @@ input[type="submit"] {
 }
 .main {
     height: 725px;
-    background: url("img/22.jpg");
+    background: url("img/22.jpg") no-repeat;
     padding-top: 13px;
 
 }
