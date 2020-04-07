@@ -1,0 +1,38 @@
+.news__con {
+    max-width: 1920px;
+}
+.news_List__h{
+    height: 19px;
+    color: #000000;
+    font-family: Poppins,serif;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 48px;
+    display: inline-block;
+
+}
+.news_h {
+    display: inline-block;
+    margin: 0 0 32px;
+    padding-bottom:15px;
+    border-bottom: 1px solid #c5c5c5;
+
+
+}
+.news_list__arrow {
+    padding-left: 308px;
+}
+.news_list_img {
+
+}
+.new_list_i {
+    width: 189px;
+    height: 120px;
+    margin:0;
+    padding: 0;
+}
+
+.date__c1 {
+    white-space: pre-wrap;
+
+}

@@ -1,7 +1,4 @@
-.gallery_con {
-    height: 888px;
-    width: 1920px;
-}
+
 
 .button {
     width: 130px;
@@ -35,16 +32,16 @@
     padding-bottom: 199px;
 }
 .gallery__h1 {
-    width: 250px;
+
     height: 37px;
     color: #f44336;
     font-family: Poppins,serif;
-    margin:auto;
     padding-top: 93px;
     padding-bottom: 92px;
     font-size: 36px;
     font-weight: 500;
     line-height: 48px;
+    padding-left: 858px;
 }
 .g_rc4 > .gallery__p {
     padding-bottom: 10px;

@@ -3,15 +3,20 @@
     padding: 0;
     text-decoration: none;
     list-style: none;
+    box-sizing: content-box;
     }
+
 .clearfix:after {
     content: "";
     display: table;
     clear: both;
 }
 .container {
-    width: 1920px;
+   max-width: 1920px !important;
     margin: 0 auto;
+}
+img {
+    vertical-align: unset !important;
 }
 
 
@@ -171,11 +176,11 @@ input[type="submit"] {
     border: 2px solid white;
     width: 80px;
     background-color: #ffffff;
-    margin: 0 auto;
-    margin-top: 16px;
+    margin: 16px auto 0;
 }
+
 .headerInfo {
-    width: 1920px;
+    max-width: 1920px;
     height: 83px;
     background-color: #000000;
     opacity: 0.5;
