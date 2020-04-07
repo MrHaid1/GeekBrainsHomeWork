@@ -146,6 +146,7 @@ input[type="submit"] {
     width: 1923px;
     height: 1px;
     border-top: 1px solid #ffffff;
+    margin-top: -15px;
 
 }
 .textContent_1 {
@@ -156,8 +157,7 @@ input[type="submit"] {
     font-size: 18px;
     font-weight: 400;
     line-height: 48px;
-    padding-top: 134px;
-    padding-left: 906px;
+    margin: 109px auto;
     padding-bottom: 16px;
 }
 .textContent_2 {
@@ -196,7 +196,7 @@ input[type="submit"] {
 .mainMenu {
     display: flex;
     justify-content: space-around;
-    padding-left: 693px;
+    margin: 0 auto;
     padding-top: 32px;
     padding-bottom: 30px;
     width: 511px;
@@ -216,6 +216,7 @@ input[type="submit"] {
     padding-left: 854px;
 }
 .footer {
+    max-width: 1920px;
     height: 71px;
     background-color: black;
     color: #ffffff;
@@ -225,7 +226,7 @@ input[type="submit"] {
     line-height: 16px;
     letter-spacing: 0.16px;
     text-align: center;
-    width: 1920px;
+    margin: 0 auto;
 
 }
 .footer__p {
