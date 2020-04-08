@@ -6,6 +6,7 @@
     background-color: #f44336;
     color:white;
     margin-left:70px;
+    margin-bottom: 180px;
 }
 
 .g_rc1{
@@ -22,26 +23,25 @@
 }
 
 .gallery__main {
-    padding-left: 374px;
+    max-width: 60.9%;
     display: grid;
-    grid-template-columns:271px 271px 271px 271px;
-    grid-template-rows: 482px;
+
+   margin:0 auto;
     grid-template-areas:
     "rc1 rc2 rc3 rc4";
-    grid-gap:29px;
-    padding-bottom: 199px;
+    grid-gap:30px;
+
 }
 .gallery__h1 {
-
+   max-width:300px;
     height: 37px;
     color: #f44336;
     font-family: Poppins,serif;
-    padding-top: 93px;
-    padding-bottom: 92px;
     font-size: 36px;
     font-weight: 500;
     line-height: 48px;
-    padding-left: 858px;
+    margin: 95px auto;
+
 }
 .g_rc4 > .gallery__p {
     padding-bottom: 0;

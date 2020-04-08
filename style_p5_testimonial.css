@@ -1,28 +1,27 @@
 .test__con {
-    width: 1923px;
-    height: 537px;
+    max-width: 100%;
+
 
 }
 .test__div {
-    width: 1923px;
-    height: 537px;
+
     background: url("img/testimonial/testimonial.jpg") no-repeat;
 }
 .test__p {
     white-space: pre-wrap;
-    width: 935px;
-    height: 136px;
+    width: 50%;
+    height: 7%;
     color: #ffffff;
     font-family: "Roboto Condensed", serif;
     font-size: 14px;
     font-weight: 300;
     text-align: center;
-    padding: 51px 79px 98px;
+    margin: 2.65% 4% 5%;
 
     line-height: 24px;
 }
 .test__h {
-    width: 277px;
+    max-width: 14.4%;
     height: 39px;
     color: #ffffff;
     font-family: Poppins, serif;
@@ -30,34 +29,34 @@
     font-weight: 500;
     line-height: 48px;
     margin:0 auto;
-    padding-top: 85px;
+    padding-top: 4.5%;
 }
 
 .test__img {
     width: 45px;
     height: 38px;
     opacity: 0.7;
-    padding-left: 941px;
-    padding-top: 90px;
+    margin-left: 49%;
+    padding-top: 4.7%;
 }
 
 .test_arrow__l {
     border: 1px #ffffff solid;
-    padding:10px 13px;
+    padding:0.5% 0.5%;
     width: 11px;
     height: 17px;
-    margin-left: 377px;
-    margin-top: 60px;
+    margin-left: 20%;
+    margin-top: 3%;
 }
 .box {
     display: flex;
 }
 .test_arrow__r {
     border: 1px #ffffff solid;
-    padding:10px 13px;
+    padding:0.5% 0.5%;
     width: 11px;
     height: 17px;
-    margin-top: 60px;
+    margin-top: 3%;
 }
 
 .fix__arrow {

@@ -1,8 +1,4 @@
 
-.news__con {
-    max-width: 1156px;
-    margin: 0 auto;
-}
 .news_List__h{
     height: 19px;
     color: #000000;
@@ -131,10 +127,13 @@ padding-top:80px;
 
 }
 .news__con{
+    max-width: 1156px;
+    margin: 0 auto 105px;
     display: grid;
     grid-gap: 92px;
     grid-template-areas:
             "c1 c3";
+
 }
 .column-1-1 {
     width: 480px;
