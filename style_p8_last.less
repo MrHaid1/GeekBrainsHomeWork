@@ -1,0 +1,55 @@
+ @widthBlock: 1920px;
+ @heightBlock:313px;
+
+.margin {
+  margin:0 auto;
+}
+.subscribe-block {
+  width: @widthBlock;
+  height: @heightBlock;
+  background: url("img/subscribe.jpg") no-repeat;
+  margin: 95px auto 0;
+  padding-top: 1px;
+  .subscribe-input{
+    width:(490px/@widthBlock)*100%;
+    background-color: #ffffff;
+    height: 55px/@heightBlock*100%;
+    border:none;
+    margin-left: 654/@widthBlock*100%;
+
+  }
+  .subscribe-tittle {
+    width:(450px/@widthBlock)*100%;
+    color: #ffffff;
+    font-family: Poppins, sans-serif;
+    font-size: 48px;
+    font-weight: 500;
+    line-height: 48px;
+    margin: 86px/@widthBlock*100% auto 53px/@widthBlock*100%;
+
+  }
+
+}
+
+
+.subscribe-button {
+  height: 55px/@heightBlock*100%;
+  width: 119px/@widthBlock*100%;
+  background-color: #f44336;
+  border:none;
+  margin-left: 9px;
+  color: #ffffff;
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 48px;
+}
+
+ input[type="email"]::-webkit-input-placeholder {
+   color: #8e8e8e !important;
+   font-family: "Roboto Condensed", sans-serif;
+   font-size: 14px;
+   font-weight: 300;
+   line-height: 48px;
+   padding: 30px;
+ }
