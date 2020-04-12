@@ -120,7 +120,7 @@ img {
 input.search:focus {
     background-color: white;
 }
-input[type="search"]::-webkit-input-placeholder {
+.search::placeholder {
     color: white; !important
     opacity: 1;
     padding: 16px;
@@ -135,7 +135,7 @@ input[type="search"] {
 
 
 }
-input[type="submit"] {
+.search-submit {
     width: 50px;
     height: 37px;
     border:1px solid #ffffff;
