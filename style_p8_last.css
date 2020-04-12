@@ -140,6 +140,6 @@ input[type="email"]::-webkit-input-placeholder {
 }
 .map {
   width: 1169px;
-  margin-left: 376px;
+  margin: 20px auto 20px 376px;
 }
 /*# sourceMappingURL=style_p8_last.css.map */
