@@ -6,7 +6,7 @@
     background-color: #f44336;
     color:white;
     margin-left:70px;
-    margin-bottom: 180px;
+
 }
 
 .g_rc1{
@@ -26,11 +26,13 @@
     max-width: 60.9%;
     display: grid;
 
-   margin:0 auto;
     grid-template-areas:
     "rc1 rc2 rc3 rc4";
     grid-gap:30px;
-
+    margin: 0 auto;
+}
+.gallery__main__margin {
+    margin-bottom: 180px;
 }
 .gallery__h1 {
    max-width:300px;
@@ -43,7 +45,7 @@
     margin: 95px auto;
 
 }
-.g_rc4 > .gallery__p {
+.g_rc4__margin > .gallery__p {
     padding-bottom: 0;
     text-align: center;
 }

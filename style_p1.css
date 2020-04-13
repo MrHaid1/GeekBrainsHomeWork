@@ -23,6 +23,11 @@ img {
     vertical-align: unset !important;
 }
 
+.main_header-white {
+
+    border-bottom: 2px solid white;
+    width: 1920px;
+}
 
 .mainMenu__a {
     height: 16px;

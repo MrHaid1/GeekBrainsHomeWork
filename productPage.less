@@ -1,8 +1,132 @@
 @WidthProduct:1920px;
+@widthProductBlock: 970px/@WidthProduct*100%;
+@widthProductInformation:(470px/970px)*100%;
+
 .margin {
   margin:0 auto;
 }
 .product-block {
-  width: 970/@WidthProduct*100%;
-  .margin
+
+  width: 970px;
+  columns: 2;
+  column-gap: 30px;
+  padding-top: 173px;
+  .margin;
+  margin-bottom: 178px;
+
+
+.product-image {
+  width: 470px;
+
+
+.product-main-image {
+}
+}
+}
+
+.product-main-image__mini__flex {
+  width: 470px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+
+
+}
+.product-main-image__mini {
+
+  width: 86px;
+  height: 63px;
+  margin:63px 20px 0 20px;
+}
+
+.product-main-image__mini:hover {
+  width: 120px;
+  height: 87px;
+  box-shadow: 5px 5px 10px 5px rgba(59, 59, 59, 0.6);
+  margin-top:20px;
+  margin-right: 3px;
+  margin-left: 3px;
+ }
+
+.product-information {
+  width:470px;
+  max-height: 414px;
+  display: inline-block;
+
+
+  .product-detail {
+
+    height: 153px;
+    color: #999999;
+    font-family: "Roboto Condensed", sans-serif;
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 24px;
+
+    letter-spacing: 0.12px;
+  }
+}
+.product-tittle{
+  min-width: 291px;
+  color: #000000;
+  font-family: Poppins,sans-serif;
+  font-size: 36px;
+  font-weight: 500;
+  line-height: 36px;
+  margin-left: 90px;
+  display: inline-block;
+
+}
+
+.product-tittle__red {
+  color: #f44336;
+  text-align: center;
+  font-family: Poppins, sans-serif;
+  font-size: 36px;
+  font-weight: 500;
+  line-height: 36px;
+}
+.product-price {
+  width: 187px;
+  height: 56px;
+  color: #000000;
+  font-family: Poppins, sans-serif;
+  font-size: 56px;
+  font-weight: 300;
+  line-height: 90px;
+  margin-left: 141px;
+
+}
+
+.product-buy {
+  display: inline-block;
+  width: 466px;
+  height: 58px;
+  background-color: #f44336;
+  color: #ffffff;
+  font-family: Poppins, sans-serif;
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 24px;
+  margin-bottom: 32px;
+  margin-top: 15px;
+}
+
+.main_header {
+  padding-bottom: 12px;
+  border-bottom: 2px solid;
+  width: 1920px;
+  .margin;
+}
+.similarGames {
+  width: 1920px;
+  background-color: #e3e3e3;
+  .margin;
+}
+.similarGames-tittle__padding {
+  padding:48px 0 80px;
+}
+
+.productPage__margin {
+  padding-bottom: 50px;
 }

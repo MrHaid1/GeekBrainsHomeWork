@@ -2,9 +2,10 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>ContactUs</title>
+    <title>Product Page</title>
     <link rel="stylesheet" href="style_p1.css">
     <link rel="stylesheet" href="style_p8_last.css">
+    <link rel="stylesheet" href="style_p4_gallery.css">
     <link rel="stylesheet" href="style_contactUs.css">
     <link rel="stylesheet" href="productPage.css">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap" rel="stylesheet">
@@ -40,29 +41,60 @@
             <li class="mainMenu__li"><a href="#services" class="mainMenu__a mainMenu_nonIndexDecoration">Services</a></li>
             <li class="mainMenu__li"><a href="#gallery" class="mainMenu__a mainMenu_nonIndexDecoration">Gallery</a></li>
             <li class="mainMenu__li"><a href="#" class="mainMenu__a mainMenu_nonIndexDecoration">News</a></li>
-            <li class="mainMenu__li"><a href="#" class="mainMenu__a mainMenu_nonIndexDecoration">Team</a></li>
-            <li class="mainMenu__li"><a href="#" class="mainMenu__a mainMenu_nonIndexDecoration">Contact Us</a></li>
+            <li class="mainMenu__li"><a href="#team" class="mainMenu__a mainMenu_nonIndexDecoration">Team</a></li>
+            <li class="mainMenu__li"><a href="contactUs.html" class="mainMenu__a mainMenu_nonIndexDecoration">Contact Us</a></li>
         </ul>
         <div class="mainMenuLine"></div>
     </header>
+    <div class="container">
     <div class="product-block">
-        <div class="product-image">
-            <a href="img/productPage/ACRR_01_Cinematic_NewYork_321742.jpg"><img src="img/productPage/ACRR_01_Cinematic_NewYork_321742.jpg" alt="" class="product-main-image"></a>
+        <div class="product-image clearfix">
+            <a href="img/productPage/ACRR_01_Cinematic_NewYork_321742.jpg"><img src="img/productPage/ACRR_01_Cinematic_NewYork_321742.jpg" alt="" class="product-main-image"></a><br>
+            <div class="product-main-image__mini__flex">
             <a href="img/productPage/ACRR_01_Cinematic_NewYork_321742.jpg"><img src="img/productPage/ACRR_01_Cinematic_NewYork_321742.jpg" alt="" class="product-main-image__mini"></a>
             <a href="img/productPage/ACCHD_09_SailingSunsetByVillage_321736.jpg"><img src="img/productPage/ACCHD_09_SailingSunsetByVillage_321736.jpg" alt="" class="product-main-image__mini"></a>
             <a href="img/productPage/ACCHD_03_ParkourOnLog_321724.jpg"><img src="img/productPage/ACCHD_03_ParkourOnLog_321724.jpg" alt="" class="product-main-image__mini"></a>
             <a href="img/productPage/ACCHD_05_SailingSunsetVillage_321730.jpg"><img src="img/productPage/ACCHD_05_SailingSunsetVillage_321730.jpg" alt="" class="product-main-image__mini"></a>
+            </div>
         </div>
         <div class="product-information">
-            <span class="product-tittle">Assasin’s Creed:<br><p class="product-tittle__red">Rogue</p></span>
-            <span class="product-price">$29.99</span>
+            <p class="product-tittle">Assasin’s Creed:</p><p class="product-tittle__red">Rogue</p>
+            <p class="product-price">$29.99</p><br>
             <button class="product-buy">Buy</button>
-            <span class="product-detail">The plot is set in a fictional history of real world events and follows the centuries-old struggle between the Assassins, who fight for peace with free will, and the Templars, who desire peace through control. The story is set in the mid-18th century during the Seven Years' War, and follows Shay Patrick Cormac, an Assassin-turned-Templar who hunts down former members of his Brotherhood after being betrayed by them. Gameplay in Rogue is very similar to that of Black Flag with a mixture of ship-based naval exploration and third-person land-based exploration with some new features.</span>
+            <p class="product-detail clearfix">The plot is set in a fictional history of real world events and follows the centuries-old struggle between the Assassins, who fight for peace with free will, and the Templars, who desire peace through control. The story is set in the mid-18th century during the Seven Years' War, and follows Shay Patrick Cormac, an Assassin-turned-Templar who hunts down former members of his Brotherhood after being betrayed by them. Gameplay in Rogue is very similar to that of Black Flag with a mixture of ship-based naval exploration and third-person land-based exploration with some new features.</p>
         </div>
     </div>
+    </div>
+    <section class="similarGames">
+        <h2 class="tittle similarGames-tittle__padding">Similar games</h2>
+        <div class="gallery__main productPage__margin">
+            <div class="g_rc1">
+                <img src="img/productPage/1.jpg"  alt=""/>
+                <p class="gallery__p">MIDDLE-EARTH: Shadow Of War</p>
+                <button class="button">Buy</button>
+            </div>
+            <div class="g_rc2">
+                <img src="img/productPage/2.jpg" alt=""/>
+                <p class="gallery__p">DISHONORED 2</p>
+                <button class="button">Buy</button>
+            </div>
+            <div class="g_rc3">
+                <img src="img/productPage/3.jpg" alt=""/>
+                <p class="gallery__p">THIEF</p>
+                <button class="button">Buy</button>
+            </div>
+            <div class="g_rc4">
+                <img src="img/productPage/4.jpg" alt=""/>
+                <p class="gallery__p">HITMAN</p>
+                <button class="button">Buy</button>
+            </div>
 
 
-    <div class="contact-block__decoration">
+
+        </div>
+
+    </section>
+    <div class="none-decoration">
         <a href="contactUs.html"><h2 class="tittle tittle__padding">Contact Us</h2></a>
         <div class="contact-block">
             <div class="contact-block__div">
