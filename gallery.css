@@ -1,0 +1,100 @@
+.margin {
+  margin: 0 auto;
+}
+.container-g {
+  width: 1920px;
+  margin: 0 auto;
+}
+.gallery-container {
+  width: 1920px;
+  margin: 0 auto;
+}
+.gallery-show-games {
+  width: 238px;
+  height: 38px;
+  color: #000000;
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 17px;
+  letter-spacing: 0.36px;
+  padding: 11px 40px;
+  background-color: #fff;
+  border: 1px black solid;
+  cursor: pointer;
+  display: block;
+  margin: 0 auto;
+}
+.discount-items {
+  width: 1920px;
+  display: flex;
+  margin-top: 174px;
+  margin-bottom: 79px;
+}
+.discount-item1 {
+  flex: 1;
+  height: 562px;
+  width: 50%;
+  background: url("img/gallery-m/bg1.jpg") no-repeat;
+}
+.discount-item2 {
+  flex: 1;
+  height: 562px;
+  width: 50%;
+  background: url("img/gallery-m/bg2.jpg") no-repeat;
+}
+.dicount {
+  width: 91px;
+  height: 18px;
+  color: #010101;
+  font-family: Poppins, sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 36px;
+  text-transform: uppercase;
+  margin-top: 188px;
+  margin-left: 115px;
+  margin-bottom: 17px;
+}
+.discount-items-name {
+  width: 28vw;
+  height: 61px;
+  color: #f44336;
+  font-family: Poppins, sans-serif;
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 36px;
+  margin-left: 115px;
+  margin-bottom: 27px;
+}
+.discount-items-price {
+  width: 34vw;
+  height: 56px;
+  font-family: Poppins, sans-serif;
+  font-weight: 300;
+  line-height: 48px;
+  color: #000000;
+  font-size: 62px;
+  display: inline-block;
+  margin-left: 115px;
+  margin-bottom: 19px;
+}
+.discount-items-price__discount {
+  color: #8c8c8c;
+  font-size: 36px;
+}
+.discount-items-button {
+  width: 265px;
+  height: 62px;
+  border: 1px solid #000000;
+  background-color: #f44336;
+  color: #ffffff;
+  font-family: Poppins, sans-serif;
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.3px;
+  margin-left: 115px;
+  border: none;
+}
+/*# sourceMappingURL=gallery.css.map */

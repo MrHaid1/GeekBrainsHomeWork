@@ -2,6 +2,7 @@
   margin: 0 auto;
 }
 .subscribe-block {
+  width: 1920px;
   height: 313px;
   background: url("img/subscribe.jpg") no-repeat;
   margin: 95px auto 0;
@@ -127,7 +128,7 @@ input[type="email"]::-webkit-input-placeholder {
   padding: 16px;
 }
 .contact-form__submit {
-  width: 10.29866117%;
+  width: 140px;
   background-color: #f44336;
   color: #ffffff;
   font-family: "Roboto Condensed", sans-serif;
