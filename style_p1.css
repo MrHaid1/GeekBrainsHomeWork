@@ -3,7 +3,6 @@
     padding: 0;
     text-decoration: none;
     list-style: none;
-    box-sizing: content-box;
     }
 a:hover {
      color: unset;
@@ -15,18 +14,12 @@ a:hover {
     display: table;
     clear: both;
 }
-.container {
-   min-width: 1920px !important;
-    margin: 0 auto;
-}
 img {
     vertical-align: unset !important;
 }
 
 .main_header-white {
-
     border-bottom: 2px solid white;
-    width: 1920px;
 }
 
 .mainMenu__a {
@@ -178,7 +171,6 @@ input[type="search"] {
     font-weight: 500;
     line-height: 48px;
     padding-top: 76px;
-    width: 1920px;
     letter-spacing: 0.6px;
 }
 .line {
@@ -189,7 +181,6 @@ input[type="search"] {
 }
 
 .headerInfo {
-    max-width: 1920px;
     height: 83px;
     background-color: #000000;
     opacity: 0.5;
@@ -232,7 +223,6 @@ input[type="search"] {
     padding-left: 854px;
 }
 .footer {
-    max-width: 1920px;
     height: 71px;
     background-color: black;
     color: #ffffff;
