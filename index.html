@@ -17,10 +17,72 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:300,400,700&display=swap" rel="stylesheet">
 
+    <style>
+        .test-column {
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            border: 1px solid red;
+        }
 
+        .test-column .test-row {
+            min-height: 50px;
+            border: 1px solid green;
+        }
+
+        .test-column .test-header,
+        .test-column .test-footer {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .test-column .test-row-2 {
+            display: flex;
+            flex-direction: row;
+            min-height: 100px;
+        }
+
+        .test-column .test-row .child-col {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border: 1px solid orange;
+        }
+
+        .test-column .test-row .test-leftnav,
+        .test-column .test-row .test-rightnav {
+            flex: 1;
+        }
+
+        .test-column .test-row .test-content {
+            flex: 4;
+        }
+
+
+    </style>
 </head>
 <body>
 <div class="w-100">
+    <div class="test-block" style="display: flex; flex-direction: row;">
+        <div class="test-column left-column">
+            <div class="test-row test-header">
+                <span>Header</span>
+            </div>
+            <div class="test-row test-row-2">
+                <div class="child-col test-leftnav">Left navigation block</div>
+                <div class="child-col test-content">Content</div>
+                <div class="child-col test-rightnav">Right navigation block</div>
+            </div>
+            <div class="test-row test-footer">
+                <span>Footer</span>
+            </div>
+        </div>
+        <div class="test-column right-column">
+
+        </div>
+    </div>
+
     <p><a name="home"></a></p>
 
     <div class="main main__background">
